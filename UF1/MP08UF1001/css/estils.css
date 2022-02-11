@@ -1,0 +1,147 @@
+body{
+  background-color: ;
+  margin: 0;
+  font-family: Helvetica, Arial, Sans-Serif;
+  color: #666;
+  font-size: 13px;
+}
+
+h1{
+  background-color: ;
+  width: 380px;
+  margin: 0;
+  padding: 30px;
+}
+
+p{
+  background-color: ;
+  width: 380px;
+  margin: 0;
+  padding: 0 30px;
+  font-size: 18px;
+  line-height: 22px;
+  text-indent: 18px;
+}
+
+
+div{
+    background-repeat: no-repeat;
+    background-position: 400px 0;
+}
+
+ul{
+    background-color: ;
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    text-align: right;
+}
+
+li{
+  list-style-type: none;
+  background-color: ;
+  margin: 0;
+  display: inline-block;
+  padding: 6px;
+  border-radius: 5px 15px 5px 15px;
+  line-height: 40px;
+}
+
+li:link{
+  color: black;
+}
+
+li:hover{
+  background-color: #6c3;
+  color: white;
+}
+
+li:active{
+  background-color: white;
+  color: #6c3;
+}
+
+a:visited {
+  color: ;
+}
+
+#descarrega img{
+  padding: 30px;
+}
+
+#menu img{
+  background-color: ;
+
+}
+
+.blanc{
+  background-color: #FFFFFF;
+}
+
+.verd{
+  background-color: #6C3;
+  height: 550px;
+}
+
+.fosca{
+  background-color: #333333;
+}
+
+.clar{
+  background-color: #EEECEE;
+}
+
+.torna{
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  color: black;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  border-radius: 50px;
+  font-size: 80px;
+  text-align: center;
+  line-height: 120px;
+  box-shadow: black 10px 10px 10px;
+
+}
+
+#menu{
+  height: 40px;
+}
+
+#coneix{
+  background-image: url(../img/img-hero-full-list.png);
+}
+
+#tot{
+  height: 641px;
+  background-image: url(../img/allinone.jpg);
+}
+
+#util{
+  height: 500px;
+  background-image: url(../img/curator-short.png);
+}
+
+#facil{
+  background-image: url(../img/mobile-share.png);
+  background-position: 400px 15px;
+}
+
+#rapid{
+  height: 550px;
+  background-image: url(../img/img-hero-full-list.png);
+}
+
+#arreu{
+  height: 643px;
+  background-image: url(../img/anywhere.png);
+}
+
+#descarrega{
+  height: 200px;
+  text-align: center;
+}

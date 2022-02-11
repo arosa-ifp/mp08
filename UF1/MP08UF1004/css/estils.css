@@ -1,0 +1,84 @@
+.taulell{
+width: 800px;
+height: 800px;
+background-color: brown;
+position: relative;
+margin: 0 auto;
+}
+
+.filera .casella{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  background-image: linear-gradient(45deg, yellow, white 0px);
+  float: left;
+}
+
+.filera .casella:nth-child(2n){
+  background-color: black;
+  background-image: linear-gradient(black, black);
+
+}
+
+.filera:nth-child(2n) .casella{
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  background-image: linear-gradient(black, black);
+  float: left;
+
+}
+
+.filera:nth-child(2n) .casella:nth-child(2n){
+  background-color: yellow;
+  background-image: linear-gradient(45deg, yellow, white 0px);
+
+}
+
+b{
+  display: block;
+  background-color: white;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin: 10px;
+  box-shadow: 2px 2px 5px;
+  background-image: radial-gradient(farthest-corner at 30px 20px, white, grey);
+}
+
+
+.filera:nth-child(n+3) b{
+  display: none;
+
+}
+
+b:hover{
+  position: relative;
+  top: 100px;
+  transition: 0.1s;
+}
+
+.filera:nth-child(n+7) b{
+  display: block;
+  background-color: grey;
+  background-image: radial-gradient(farthest-corner at 0px, #999 10px, #333);
+  box-shadow: 2px 2px 5px black;
+}
+
+.filera:nth-child(n+7) b:hover{
+  position: relative;
+  top: -100px;
+  transition: 0.1s;
+}
+
+.filera:first-child b:hover{
+  position: relative;
+  top: 200px;
+  transition: 0.1s;
+}
+
+.filera:last-child b:hover{
+  position: relative;
+  top: -200px;
+  transition: 0.1s;
+}

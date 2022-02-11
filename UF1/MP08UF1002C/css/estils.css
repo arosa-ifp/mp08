@@ -1,0 +1,73 @@
+body{
+  background-color: ;
+}
+
+h2{
+ background-color: ;
+ width: 1200px;
+ height: 200px;
+ margin: 0 auto;
+ text-align: center;
+ font-family: georgia;
+ color: white;
+ font-size: 3em;
+
+}
+
+p{
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  font-family: verdana;
+  padding: 30px;
+
+}
+
+.primer{
+  background-color: blue;
+  width: 1200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.segon{
+  background-color: purple;
+  width: 200px;
+  height: 600px;
+  float: left;
+  margin: 13.33px;
+  overflow: scroll;
+}
+
+.tercer{
+  background-color: purple;
+  width: 720px;
+  height: 600px;
+  float: left;
+  margin: 13.33px;
+}
+
+.quart{
+  background-color: purple;
+  width: 200px;
+  height: 600px;
+  float: left;
+  margin: 13.33px;
+  overflow: scroll;
+
+}
+
+.contenidor{
+
+  background-color: ;
+  width: 1200px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.cinque{
+  background-color: blue;
+  width: 1200px;
+  height: 300px;
+  clear: both;
+}

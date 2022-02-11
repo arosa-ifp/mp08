@@ -1,0 +1,285 @@
+body{
+background-image: linear-gradient( orange 50%, blue 50%);
+font-family: Lato;
+color: white;
+}
+
+
+
+h2{
+  font-size: 3em;
+  font-family: Lato;
+  margin: 0 20px 0 0;
+  padding: 10px;
+  color: white;
+}
+
+div{
+  width: 400px;
+  height: 600px;
+  background-image: linear-gradient(30deg, tomato, orange);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+article:last-child div{
+  background-image: linear-gradient(30deg, blue, cyan);
+}
+
+
+h4{
+  font-size: 1.5em;
+  font-family: Lato;
+  margin: 20px;
+  width: 200px;
+  background-color: ;
+  color: white;
+}
+
+.alternatives h4{
+  color: white;
+}
+
+
+a{
+  display: inline-block;
+  margin: 5px 20px 5px 20px;
+
+}
+
+h5{
+  width: 100px;
+  height: 100px;
+  background-image: url(https://play-lh.googleusercontent.com/XrUgQRu7F5M3P7KuqyY4dfhCDKdDk2q-yc_rUtsnwE_aTwdciF92a0TfS7mSaoY5cVw=s360);
+  background-size: cover;
+  border-radius: 30px;
+}
+
+article:last-child h5{
+  width: 100px;
+  height: 100px;
+  background-image: url(https://play-lh.googleusercontent.com/DunqpKvffS6SIjzrI4XvL6040dn_YQwY6b1nKiRnyUPX-LDB67t1kt8FNrDJ7lZUWw);
+  background-size: cover;
+  border-radius: 30px;
+}
+
+
+
+img{
+  width: 130px;
+  height: 130px;
+  float: left;
+  margin: 10px;
+  border-radius: 70px;
+}
+
+article{
+  width: auto;
+  margin:  0 auto;
+  clear: both;
+  height: 1850px;
+}
+
+ul{
+  width: 100%;
+  height: 110px;
+  list-style: none;
+  clear: both;
+  background-color:;
+  margin: 0 auto;
+}
+
+li{
+  width: 100px;
+  height: 100px;
+  background-color: ;
+  display: inline-block;
+  margin: 0 20px 0 20px;
+}
+
+.imatges{
+  margin: 0 auto;
+  background-color: ;
+  width: 350px;
+  height: 500px;
+}
+
+
+.plataformes, .captures, .financament, .companyia, .alternatives, .valoracio{
+  padding: 20px 10px 10px 10px;
+  display: inline-block;
+  margin: 15px;
+  float: left;
+}
+
+.captures{
+  background-image: url(https://image.winudf.com/v2/image1/Y29tLnNwb3J0bWVtYmVyX3NjcmVlbl9lcy1FU180XzE1NTY5MTAwOTlfMDI5/screen-4.jpg?fakeurl=1&type=.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.companyia{
+  background-image: url(https://www.holdsport.dk/media/W1siZiIsIjIwMTkvMDkvMTIvOGc2cnN5aHN5MF9Ib2xkc3BvcnRfbG9nby5qcGciXSxbInAiLCJlbmNvZGUiLCJqcGciXV0/Holdsport-logo.jpg?sha=ea776f09ce7dec72);
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+  background-color: black;
+  color: white;
+  font-family: Lato;
+  font-size: 2em;
+  text-align: center;
+}
+
+.alternatives img{
+  background-color: ;
+  width: 300px;
+  height: 200px;
+  margin: 40px;
+}
+
+
+.win{
+  width: 70px;
+  height: 70px;
+  background-image: url(https://cdn-icons-png.flaticon.com/128/888/888882.png);
+  background-size: cover;
+}
+
+.mac{
+  width: 70px;
+  height: 70px;
+  background-image: url(https://cdn-icons-png.flaticon.com/128/2/2235.png);
+  background-size: cover;
+}
+
+.lin{
+  width: 70px;
+  height: 70px;
+  background-image: url(https://cdn-icons-png.flaticon.com/128/226/226772.png);
+  background-size: cover;
+}
+
+.web{
+  width: 70px;
+  height: 70px;
+  background-image: url(https://cdn-icons-png.flaticon.com/128/1006/1006771.png);
+  background-size: cover;
+}
+
+.and{
+  width: 70px;
+  height: 70px;
+  background-image: url(https://cdn-icons-png.flaticon.com/128/888/888857.png);
+  background-size: cover;
+}
+
+.ios{
+  width: 70px;
+  height: 70px;
+  background-image: url(https://cdn-icons.flaticon.com/png/128/668/premium/668276.png?token=exp=1636139756~hmac=330674b00e4bb08a974b3f1827b11628);
+  background-size: cover;
+}
+
+.imatges img:nth-child(0n+2){
+  width: 180px;
+}
+
+.imatges img:nth-child(0n+3){
+  width: 180px;
+}
+
+.imatges img:nth-child(0n+5){
+  width: 180px;
+}
+
+.funcionalitats{
+  padding: 20px 10px 10px 10px;
+  display: inline-block;
+  margin: 15px;
+  float: left;
+}
+
+
+.avantatges, .inconvenients{
+  width: 350px;
+  height: 200px;
+  margin: 30px 40px 50px 15px;
+  padding: 0;
+  background-color: ;
+}
+
+p{
+  width: 350px;
+  background-color: ;
+  margin: 10px 10px 10px 0;
+  background-color: ;
+  font-size: 1.2em;
+  font-family: Lato;
+  padding: 10px 10px 0 0;
+}
+
+h6{
+  width: 100px;
+  margin: 5px 0 0 30px;
+  background-color: ;
+  font-size: 1.6em;
+  font-family: Lato;
+}
+
+article:last-child h2{
+  color: white;
+}
+
+article:last-child h4{
+  color: white;
+}
+
+article:last-child .captures{
+  background-image: url(https://download.cnet.com/a/img/resize/5a4436e664c5924a89a924f414b25e994d81d9ed/catalog/2018/03/07/856ef93e-d8fb-40a2-a822-2066875fa2bd/screen320x480.jpg?auto=webp&width=416);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+article:last-child .imatges{
+  background-color: ;
+  margin-top: -10px;
+}
+
+article:last-child .financament h4{
+  color: white;
+}
+
+article:last-child .imatges img:nth-child(1){
+width: 250px;
+height: 80px;
+}
+
+article:last-child .imatges img:nth-child(2){
+  width: 80px;
+  height: 80px;
+}
+
+article:last-child .imatges img:nth-child(3){
+  width: 300px;
+  height: 80px;
+}
+
+article:last-child .imatges img:nth-child(4){
+  width: 200px;
+  height: 80px;
+}
+
+article:last-child .companyia{
+  background-image: url(https://teamer.net/assets/pitchero/PH_Master_Logo-d2db6530100a388a62e26ecc54f4dbeab2a7b9cf1d20befafa503b46541dbb5f.png);
+  background-size: 100% auto;
+  background-color: white;
+}
+
+article:last-child .companyia p{
+  margin-top: 100px;
+  font-size: 1em;
+  color: black;
+}
+
+article:last-child .alternatives h4{
+  color: white;
+}
