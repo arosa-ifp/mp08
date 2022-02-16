@@ -13,7 +13,7 @@ ul li:hover{
   color: black;
 }
 
-@media screen and (min-width:394px){
+@media screen (min-width:960px){
 
  body{
   background: olive;
