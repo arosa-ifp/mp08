@@ -39,7 +39,7 @@ ul li{
    width: 10rem;
  }
 
- nav ul li ul{
+ul li ul{
    display: none;
    padding: 0;
    margin: 0;
