@@ -8,7 +8,7 @@ h1{
   clear: both;
 }
 
-nav ul li:hover{
+ul li:hover{
   background-color: yellow;
   color: black;
 }
@@ -30,7 +30,7 @@ nav ul li:hover{
    height: 6.25rem;
  }
 
- nav ul li{
+ul li{
    display: block;
    background: red;
    float: left;
@@ -45,11 +45,11 @@ nav ul li:hover{
    margin: 0;
  }
 
- nav ul li:hover ul{
+ul li:hover ul{
    display: block;
  }
 
- nav ul:hover li ul li{
+ul:hover li ul li{
    float: none;
  }
 }
@@ -71,7 +71,7 @@ nav ul li:hover{
   }
 
 
-  nav ul li{
+ul li{
     display: block;
     background: red;
     margin-top: 0.1rem;
@@ -81,21 +81,21 @@ nav ul li:hover{
     float: none;
   }
 
-  nav ul li ul{
+ul li ul{
     display: none;
     padding: 0;
     margin: 0;
     float: none;
   }
 
-  nav ul li:hover ul{
+ul li:hover ul{
     display: block;
     position: absolute;
     top: -0.1rem;
     left: 10.1rem;
   }
 
-  nav ul:hover li ul li{
+ul:hover li ul li{
     float: none;
   }
 
