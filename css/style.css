@@ -24,7 +24,7 @@ ul li:hover{
    background-repeat: no-repeat;
    background-size: cover;
    content: "";
-   display: block;
+   display: inline-block;
    width: 6.25rem;
    height: 6.25rem;
  }
