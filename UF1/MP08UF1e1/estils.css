@@ -72,37 +72,37 @@ div .inter, .vistos, .pendents, .pelisvistes, .seriess, .seriesv{
 
 .inter{
   width: 100%;
-  border-radius: 5px;
+  border-radius: 5%;
   clear: both;
 }
 
 .vistos{
   width: 100%;
-  border-radius: 5px;
+  border-radius: 5%;
   clear: both;
 }
 
 .pendents{
   width: 100%;
-  border-radius: 5px;
+  border-radius: 5%;
   clear: both;
 }
 
 .pelisvistes{
   width: 100%;
-  border-radius: 5px;
+  border-radius: 5%;
   clear: both;
 }
 
 .seriess{
   width: 100%;
-  border-radius: 5px;
+  border-radius: 5%;
   clear: both;
 }
 
 .seriesv{
   width: 100%;
-  border-radius: 5px;
+  border-radius: 5%;
   clear: both;
 }
 
