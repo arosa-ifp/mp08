@@ -16,8 +16,7 @@ ul li:hover{
 @media screen and (min-width:960px){
 
  body{
-  background: olive;
-  color: white;
+  background: cyan;
  }
 
  p:after{
@@ -40,17 +39,11 @@ ul li{
  }
 
 ul li ul{
-   display: none;
+   display: block;
+   width: 8rem;
+   height: 8rem;
    padding: 0;
    margin: 0;
- }
-
-ul li:hover ul{
-   display: block;
- }
-
-ul:hover li ul li{
-   float: none;
  }
 }
 
