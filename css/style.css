@@ -36,6 +36,7 @@ ul li{
    margin-top: 0.2rem;
    padding-top: 0.4rem;
    width: 10rem;
+   clear: both;
  }
 
 ul li ul{
