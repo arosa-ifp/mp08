@@ -30,7 +30,11 @@ ul li{
    clear: both;
  }
 
-ul li ul{
+ ul li ul{
+   display: none;
+ }
+
+ul li ul:hover{
    display: block;
    width: 8rem;
    height: 8rem;
