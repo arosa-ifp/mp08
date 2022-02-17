@@ -22,7 +22,7 @@ ul li:hover{
 
 ul li{
    display: block;
-   background: red;
+   background: green;
    float: left;
    margin-top: 0.2rem;
    padding-top: 0.4rem;
@@ -33,6 +33,7 @@ ul li{
 
 
 ul li ul{
+  background: yellow;
    display: block;
    width: 8rem;
    height: 8rem;
