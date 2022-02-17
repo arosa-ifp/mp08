@@ -30,9 +30,7 @@ ul li{
    clear: both;
  }
 
- ul li ul{
-   display: none;
- }
+
 
 ul li ul:hover{
    display: block;
