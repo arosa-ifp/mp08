@@ -19,15 +19,6 @@ ul li:hover{
   background: cyan;
  }
 
- p:after{
-   background: url(../img/ico1024.png);
-   background-repeat: no-repeat;
-   background-size: cover;
-   content: "";
-   display: inline-block;
-   width: 6.25rem;
-   height: 6.25rem;
- }
 
 ul li{
    display: block;
@@ -47,51 +38,4 @@ ul li ul{
    margin: 1rem;
    border-radius: 50%;
  }
-}
-
-@media screen and (max-width:649px){
-
-  body{
-  background: pink;
-  }
-
-  p:after{
-    background: url(../img/ico0032.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    content: "";
-    display: block;
-    width: 6.25rem;
-    height: 6.25rem;
-  }
-
-
-ul li{
-    display: block;
-    background: red;
-    margin-top: 0.1rem;
-    padding-top: 0.5rem;
-    width: 10rem;
-    position: relative;
-    float: none;
-  }
-
-ul li ul{
-    display: none;
-    padding: 0;
-    margin: 0;
-    float: none;
-  }
-
-ul li:hover ul{
-    display: block;
-    position: absolute;
-    top: -0.1rem;
-    left: 10.1rem;
-  }
-
-ul:hover li ul li{
-    float: none;
-  }
-
 }
