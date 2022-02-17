@@ -72,10 +72,69 @@ ul li ul a{
   font-family:'Heebo', sans-serif;;
 }
 
-.feedly{
-  background-image: url(img/feedly.png);
+.correccio:hover{
+  background-image: url(../img/correccio.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+.feedly:hover{
+  background-image: url(../img/feedly.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.floata:hover{
+  background-image: url(../img/floata.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.floatb:hover{
+  background-image: url(../img/floatb.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.floatc:hover{
+  background-image: url(../img/floatc.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.comic:hover{
+  background-image: url(../img/comic.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.escacs:hover{
+  background-image: url(../img/escacs.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.apps:hover{
+  background-image: url(../img/apps.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cara:hover{
+  background-image: url(../img/cara.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.floreta:hover{
+  background-image: url(../img/floreta.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.responsive:hover{
+  background-image: url(../img/responsive.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 }
