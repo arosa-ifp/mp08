@@ -20,25 +20,27 @@ ul li:hover{
  }
 
 
+
 ul li{
-   display: block;
+  display: block;
    background: green;
    float: left;
    margin-top: 0.2rem;
    padding-top: 0.4rem;
-   width: 10rem;
+   width: 5rem;
    clear: both;
  }
 
 
 
-ul li ul{
-  background: yellow;
+ ul li ul a{
    display: block;
    width: 8rem;
    height: 8rem;
-   padding: 0;
-   margin: 1rem;
+   background: red;
    border-radius: 50%;
+   text-align: center;
+   margin: 0.5rem;
+   float: left;
  }
 }
