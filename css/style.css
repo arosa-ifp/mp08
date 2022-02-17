@@ -32,7 +32,7 @@ ul li{
 
 
 
-ul li ul:hover{
+ul li ul{
    display: block;
    width: 8rem;
    height: 8rem;
