@@ -17,44 +17,60 @@ body{
   color: white;
  }
 
-video{
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -1;
-}
-
  ul li ul li:hover{
    background-color: white;
  }
 
  .uf1{
   background-color: #2274A5;
-  height: 40rem;
-  overflow: scroll;
-  border-radius: 2rem 0 0 0;
+  height: auto;
+  overflow: auto;
+  border-radius: 2rem 2rem 0 0;
+  margin-top: 1rem;
+ }
+
+ .uf1:hover{
+  background-color: #60D394;
+  color: #393E41;
  }
 
  .uf2{
   background-color: #2274A5;
   color: white;
-  height: 5rem;
-  overflow: scroll;
+  height: auto;
+  overflow: auto;
+  margin-top: 1rem;
+ }
+
+ .uf2:hover{
+  background-color: #60D394;
+  color: #393E41;
  }
 
  .uf3{
   background-color: #2274A5;
-  height: 5rem;
-  overflow: scroll;
+  height: auto;
+  overflow: auto;
+  margin-top: 1rem;
+ }
+
+ .uf3:hover{
+  background-color: #60D394;
+  color: #393E41;
  }
 
  .uf4{
   background-color: #2274A5;
   color: white;
-  height: 20rem;
-  overflow: scroll;
+  height: auto;
+  overflow: auto;
+  margin-top: 1rem;
+  border-radius: 0 0 2rem 2rem;
+ }
+
+ .uf4:hover{
+  background-color: #60D394;
+  color: #393E41;
  }
 
 
@@ -69,6 +85,7 @@ ul li{
 
 ul li ul{
 margin: 2rem;
+margin: 0 auto;
 }
 
 ul li ul li{
@@ -91,7 +108,7 @@ ul li ul a{
   float: left;
   padding: 1rem;
   text-decoration: none;
-  font-family:'Heebo', sans-serif;;
+  font-family:'Heebo', sans-serif;
 }
 
 ul li ul a:hover {
