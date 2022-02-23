@@ -1,7 +1,7 @@
 body{
   background: red;
   font-size: 1.2rem;
-  font-family:'Heebo', sans-serif;;
+  font-family:'Heebo', sans-serif;
 }
 
 
@@ -104,6 +104,12 @@ ul li ul li{
 
 h3{
   margin: 1.5rem;
+  font-size: 1.5rem;
+  font-family:'Heebo', sans-serif;
+}
+
+h3:hover{
+  color: #FFFD82;
 }
 
 ul li ul a{
@@ -116,6 +122,52 @@ ul li ul a{
 ul li ul a:hover {
   color: transparent;
 }
+
+.correccio{
+  background-image: url(../img/);
+}
+
+.feedly{
+  background-image: url(../img/);
+}
+
+.floata{
+  background-image: url(../img/);
+}
+
+.floatb{
+  background-image: url(../img/);
+}
+
+.floatc{
+  background-image: url(../img/);
+}
+
+.comic{
+  background-image: url(../img/);
+}
+
+.escacs{
+  background-image: url(../img/);
+}
+
+.apps{
+  background-image: url(../img/);
+}
+
+.cara{
+  background-image: url(../img/);
+}
+
+.floreta{
+  background-image: url(../img/);
+}
+
+.responsive{
+  background-image: url(../img/);
+}
+
+
 
 .correccio:hover{
   background-image: url(../img/correccio.png);
