@@ -27,6 +27,22 @@ body{
    background-color: white;
  }
 
+ .barra{
+   background-color: #2274A5;
+   width: 80%;
+   height: 5rem;
+   overflow: auto;
+   border-radius: 2rem;
+   margin: 0 auto;
+   text-align: center;
+ }
+
+ .barra:hover{
+   background-color: #60D394;
+   color: #393E41;
+ }
+
+
  .uf1{
   background-color: #2274A5;
   height: auto;
@@ -107,10 +123,24 @@ ul li ul li{
   background-repeat: no-repeat;
 }
 
+h2{
+  color: white;
+  font-size: 1.5rem;
+  width: 4rem;
+  display: inline-block;
+  text-decoration: none;
+}
+
+h2:hover{
+  color: #FFFD82;
+}
+
 h3{
+  width: 14rem;
   margin: 1.5rem;
   font-size: 1.5rem;
   font-family: 'Montserrat', sans-serif;
+  display: inline-block;
 }
 
 h3:hover{
