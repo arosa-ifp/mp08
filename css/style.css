@@ -1,6 +1,6 @@
 body{
   background: red;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -282,4 +282,283 @@ ul li ul a:hover {
   transform: scale(1.2);
 }
 
+}
+
+@media screen and (max-width:959px){
+
+  body{
+   background: white;
+   color: white;
+   background-image: url(../img/capts/portafoli.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+  }
+
+  video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+
+  ul li ul li:hover{
+    background-color: white;
+  }
+
+  .barra{
+    background-color: #2274A5;
+    width: 80%;
+    height: 5rem;
+    overflow: auto;
+    border-radius: 2rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .barra:hover{
+    background-color: #60D394;
+    color: #393E41;
+  }
+
+
+  .uf1{
+   background-color: #2274A5;
+   height: auto;
+   overflow: auto;
+   border-radius: 2rem 2rem 1rem 1rem;
+   margin-top: 1rem;
+  }
+
+  .uf1:hover{
+   background-color: #60D394;
+   color: #393E41;
+  }
+
+  .uf2{
+   background-color: #2274A5;
+   color: white;
+   height: auto;
+   overflow: auto;
+   border-radius: 1rem;
+   margin-top: 1rem;
+  }
+
+  .uf2:hover{
+   background-color: #60D394;
+   color: #393E41;
+  }
+
+  .uf3{
+   background-color: #2274A5;
+   height: auto;
+   overflow: auto;
+   border-radius: 1rem;
+   margin-top: 1rem;
+  }
+
+  .uf3:hover{
+   background-color: #60D394;
+   color: #393E41;
+  }
+
+  .uf4{
+   background-color: #2274A5;
+   color: white;
+   height: auto;
+   overflow: auto;
+   margin-top: 1rem;
+   border-radius: 1rem 1rem 2rem 2rem;
+  }
+
+  .uf4:hover{
+   background-color: #60D394;
+   color: #393E41;
+  }
+
+
+  ul li{
+   display: block;
+   margin: 0 auto;
+   width: 80%;
+   background-color: #E9F1F7;
+  }
+
+
+  ul li ul{
+  margin: 2rem;
+  margin: 0 auto;
+  }
+
+  ul li ul li{
+
+   width: 20rem;
+   height: 20rem;
+   border-radius: 15%;
+   line-height: 20rem;
+   text-align: center;
+   margin: 0 auto;
+   background-size: cover;
+   background-repeat: no-repeat;
+  }
+
+  h2{
+   color: white;
+   font-size: 1.5rem;
+   width: 4rem;
+   display: inline-block;
+   text-decoration: none;
+  }
+
+  h2:hover{
+   color: #FFFD82;
+  }
+
+  h3{
+   width: 14rem;
+   margin: 1.5rem;
+   font-size: 1.5rem;
+   font-family: 'Montserrat', sans-serif;
+   display: inline-block;
+  }
+
+  h3:hover{
+   color: #FFFD82;
+  }
+
+  ul li ul a{
+   float: left;
+   margin: 1rem;
+   text-decoration: none;
+   color: white;
+   font-family: 'Montserrat', sans-serif;
+   border-radius: 15%;
+  }
+
+  ul li ul a:hover {
+   color: transparent;
+  }
+
+  .correccio{
+   background-image: url(../img/capts/examen.png);
+  }
+
+  .feedly{
+   background-image: url(../img/capts/feedly.png);
+  }
+
+  .floata{
+   background-image: url(../img/capts/floata.png);
+  }
+
+  .floatb{
+   background-image: url(../img/capts/floatb.png);
+  }
+
+  .floatc{
+   background-image: url(../img/capts/floatc.png);
+  }
+
+  .comic{
+   background-image: url(../img/capts/comic.png);
+  }
+
+  .escacs{
+   background-image: url(../img/capts/escacs.png);
+  }
+
+  .apps{
+   background-image: url(../img/capts/apps.png);
+  }
+
+  .cara{
+   background-image: url(../img/capts/cara.png);
+  }
+
+  .floreta{
+   background-image: url(../img/capts/floreta.png);
+  }
+
+  .responsive{
+   background-image: url(../img/capts/responsive.png);
+  }
+
+  .correccio:hover{
+   background-image: url(../img/correccio.png);
+  }
+
+  .feedly:hover{
+   background-image: url(../img/feedly.png);
+  }
+
+  .floata:hover{
+   background-image: url(../img/floata.png);
+  }
+
+  .floatb:hover{
+   background-image: url(../img/floatb.png);
+  }
+
+  .floatc:hover{
+   background-image: url(../img/floatc.png);
+  }
+
+  .comic:hover{
+   background-image: url(../img/comic.png);
+  }
+
+  .escacs:hover{
+   background-image: url(../img/escacs.png);
+  }
+
+  .apps:hover{
+   background-image: url(../img/apps.png);
+  }
+
+  .cara:hover{
+   background-image: url(../img/cara.png);
+  }
+
+  .floreta:hover{
+   background-image: url(../img/floreta.png);
+  }
+
+  .responsive:hover{
+   background-image: url(../img/responsive.png);
+  }
+
+  .correccio:active{
+   transform: scale(1.2);
+  }
+  .feedly:active{
+   transform: scale(1.2);
+  }
+  .floata:active{
+   transform: scale(1.2);
+  }
+  .floatb:active{
+   transform: scale(1.2);
+  }
+  .floatc:active{
+   transform: scale(1.2);
+  }
+  .comic:active{
+   transform: scale(1.2);
+  }
+  .escacs:active{
+   transform: scale(1.2);
+  }
+  .apps:active{
+   transform: scale(1.2);
+  }
+  .cara:active{
+   transform: scale(1.2);
+  }
+  .floreta:active{
+   transform: scale(1.2);
+  }
+  .responsive:active{
+   transform: scale(1.2);
+  }
 }
