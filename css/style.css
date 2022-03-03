@@ -496,81 +496,49 @@ ul li ul a:hover {
    background-image: url(../img/capts/responsive.png);
   }
 
-  .correccio:hover{
-   background-image: url(../img/correccio.png);
-  }
-
-  .feedly:hover{
-   background-image: url(../img/feedly.png);
-  }
-
-  .floata:hover{
-   background-image: url(../img/floata.png);
-  }
-
-  .floatb:hover{
-   background-image: url(../img/floatb.png);
-  }
-
-  .floatc:hover{
-   background-image: url(../img/floatc.png);
-  }
-
-  .comic:hover{
-   background-image: url(../img/comic.png);
-  }
-
-  .escacs:hover{
-   background-image: url(../img/escacs.png);
-  }
-
-  .apps:hover{
-   background-image: url(../img/apps.png);
-  }
-
-  .cara:hover{
-   background-image: url(../img/cara.png);
-  }
-
-  .floreta:hover{
-   background-image: url(../img/floreta.png);
-  }
-
-  .responsive:hover{
-   background-image: url(../img/responsive.png);
-  }
 
   .correccio:active{
+   background-image: url(../img/correccio.png);
    transform: scale(1.2);
   }
   .feedly:active{
+   background-image: url(../img/feedly.png);
    transform: scale(1.2);
   }
   .floata:active{
+   background-image: url(../img/floata.png);
    transform: scale(1.2);
   }
   .floatb:active{
+   background-image: url(../img/floatb.png);
    transform: scale(1.2);
   }
   .floatc:active{
+   background-image: url(../img/floatc.png);
    transform: scale(1.2);
   }
   .comic:active{
+   background-image: url(../img/comic.png);
    transform: scale(1.2);
   }
   .escacs:active{
+   background-image: url(../img/escacs.png);
    transform: scale(1.2);
   }
   .apps:active{
+   background-image: url(../img/apps.png);
    transform: scale(1.2);
   }
   .cara:active{
+   background-image: url(../img/cara.png);
    transform: scale(1.2);
   }
   .floreta:active{
+   background-image: url(../img/floreta.png);
    transform: scale(1.2);
   }
   .responsive:active{
+   background-image: url(../img/responsive.png);
    transform: scale(1.2);
   }
 }
