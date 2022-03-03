@@ -2,6 +2,15 @@ body{
   background: red;
   font-size: 1rem;
   font-family: 'Montserrat', sans-serif;
+  cursor: url(../img/cursor.png), auto;
+}
+
+:hover{
+  cursor: url(../img/cursor.png), auto;
+}
+
+:active{
+  cursor: url(../img/cursor.png), auto;
 }
 
 @media screen and (min-width:960px){
