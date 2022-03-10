@@ -8,6 +8,7 @@ h1{
   clear: both;
 }
 
+
 nav ul li:hover{
   background-color: yellow;
   color: black;
@@ -19,6 +20,10 @@ nav ul li:hover{
   background: olive;
   color: white;
  }
+
+input{
+  visibility: hidden;
+}
 
  p:after{
    background: url(../img/ico1024.png);
@@ -98,5 +103,67 @@ nav ul li:hover{
   nav ul:hover li ul li{
     float: none;
   }
+
+
+
+
+
+
+
+  input[type=checkbox]{
+    visibility: hidden;
+  }
+
+  #alternador{
+    width: 5rem;
+    height: 5rem;
+    background: ;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    border-radius: 0.5rem;
+  }
+
+  #alternador label{
+    width: 4rem;
+    height: 3.8rem;
+    background: ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0.5rem;
+    transition: all ease;
+    cursor: pointer;
+    opacity: 1;
+  }
+
+  .activitats{
+    position: absolute;
+    opacity: 1;
+    background: red;
+    top: ;
+    left: -15rem;
+    transition: all ease;
+  }
+
+  #alternador:hover label{
+    opacity: 1;
+  }
+
+  #alternador:hover label~.activitats{
+    left: 4.2rem;
+  }
+
+
+
+  b{
+    width: 4rem;
+    height: 0.6rem;
+    background: blue;
+    display: block;
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+  }
+
 
 }
