@@ -106,10 +106,6 @@ input{
 
 
 
-
-
-
-
   input[type=checkbox]{
     visibility: hidden;
   }
@@ -125,45 +121,40 @@ input{
   }
 
   #alternador label{
-    width: 4rem;
+    width: 5rem;
     height: 3.8rem;
     background: ;
     position: absolute;
     top: 0;
     left: 0;
     border-radius: 0.5rem;
-    transition: all ease;
+    transition: all .5s ease;
     cursor: pointer;
     opacity: 1;
   }
 
-  .activitats{
+  .desplega{
     position: absolute;
     opacity: 1;
-    background: red;
-    top: ;
+    background: ;
     left: -15rem;
-    transition: all ease;
+    transition: all .5s ease;
   }
 
-  #alternador:hover label{
+  #alternador input[type=checkbox]:checked+label{
     opacity: 1;
   }
 
-  #alternador:hover label~.activitats{
-    left: 4.2rem;
+  #alternador input[type=checkbox]:checked+label~.desplega{
+    left: 0rem;
   }
 
-
-
   b{
-    width: 4rem;
+    width: 5rem;
     height: 0.6rem;
     background: blue;
     display: block;
     border-radius: 1rem;
     margin-top: 0.5rem;
   }
-
-
 }
