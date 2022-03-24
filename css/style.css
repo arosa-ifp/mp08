@@ -343,7 +343,7 @@ ul li ul a:hover {
 
   .barra{
     background-color: #2274A5;
-    width: 85%;
+    width: 90%;
     height: 2.2rem;
     border-radius: 2rem;
     margin: 0 auto;
@@ -352,7 +352,8 @@ ul li ul a:hover {
   }
 
   .barra h2{
-
+  margin-left: 0;
+  padding: 0;
 
   }
 
